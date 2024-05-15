@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
 
         RedshiftDriver.loadRedshiftDriver();
-        RedshiftConnection.getConnection("admin", "Redshift1234");
+        RedshiftConnection.getConnection("admin", "@@@@@@");
         System.out.println("Connection Established");
 
     }
